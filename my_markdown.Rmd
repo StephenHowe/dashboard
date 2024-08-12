@@ -1,0 +1,22 @@
+---
+title: "Diamonds are Forever"
+output: html_notebook
+---
+
+
+Load libraries
+```{r}
+library(ggplot2)
+```
+
+Explore
+```{r}
+ggplot(diamonds,
+       aes(clarity, depth)) +
+  geom_point()
+```
+
+What time is it?
+```{r}
+Sys.time()
+```
