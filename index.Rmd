@@ -1,6 +1,6 @@
 ---
 title: "Diamonds are Forever"
-output: html_notebook
+output: html_document
 ---
 
 
